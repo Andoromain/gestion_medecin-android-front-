@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projetvrai"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".register_activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Medecin"
+            android:label="@string/title_activity_medecin" >
+        </activity>
+        <activity
+            android:name=".Ajouter_medecin"
+            android:label="@string/title_activity_ajouter_medecin" >
+        </activity>
+        <activity
+            android:name=".DetailMedActivity"
+            android:label="@string/title_activity_detail_med" >
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".PatientActivity"
+            android:label="@string/title_activity_patient" >
+        </activity>
+        <activity
+            android:name=".Ajouter_Patient"
+            android:label="@string/title_activity_ajouter__patient" >
+        </activity>
+        <activity
+            android:name=".DetailPatActivity"
+            android:label="@string/title_activity_detail_pat" >
+        </activity>
+        <activity
+            android:name=".Traitement"
+            android:label="@string/title_activity_traitement" >
+        </activity>
+        <activity
+            android:name=".Ajouter_traitement"
+            android:label="@string/title_activity_ajouter_traitement" >
+        </activity>
+        <activity
+            android:name=".DetailTraitement"
+            android:label="@string/title_activity_detail_traitement" >
+        </activity>
+        <activity
+            android:name=".Prestation"
+            android:label="@string/title_activity_prestation" >
+        </activity>
+        <activity
+            android:name=".PatTraite"
+            android:label="@string/title_activity_pat_traite" >
+        </activity>
+        <activity
+            android:name=".SigninActivity"
+            android:label="@string/title_activity_signin" >
+        </activity>
+        <activity
+            android:name=".RechercheActivity"
+            android:label="@string/title_activity_recherche" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.projetvrai.LoginActivity" >
+    <item android:id="@+id/menu" android:title="Menu" android:icon="@drawable/ic_menu_principale" android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/quitter" android:icon="@drawable/ic_menu_quitter" android:title="Quitter"/>
+        </menu>
+    </item>
+
+</menu>
